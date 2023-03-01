@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --color-primary: orange;
+  --text-color: #777;
+  /*  1rem=10px => 10/16=62.5%*/
+  font-size: 62.5%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
